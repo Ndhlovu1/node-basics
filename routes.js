@@ -11,7 +11,7 @@ const requestHadler = (req,res) => {
             //Write and Send Html as a response
             res.write('<html>')
             res.write('<head><title>My Node Page</title></head>')
-            res.write('<body><form  action="/message" method="POST"> <input type="text" name="message"><button type="submit">SEND</button> </form></body>')
+            res.write('<body><center><h1>NODE SERVER BASICS</h1></center><form  action="/message" method="POST"> <input type="text" name="message"><button type="submit">SEND</button> </form></body>')
             res.write('</html>')
             return res.end() //Close the response we are sending to the header
         }

@@ -30,10 +30,6 @@ ASSIGNMENT
 2. Handle two routes -> / (Return a greeting) and /users (Show some users)
 3. Add a form with a username <input/> on the / and submit a POST request to "/create-user" on button click(redirect)
 
-
-
-
-
 ## SINGLE THREAD
 1. Uses a single js Thread in the OS and it handles multiple requests by.
 
@@ -57,6 +53,13 @@ ASSIGNMENT
 
 (f). process.exit - sets the refs to 0
 
-## UTILIZE THE ROUTES TO CONTAIN ALL THE LOGIC
+## 3rd PARTY PACKAGES - 
 
-1. 
+1. Packages Broken into Development and the Production dependency
+
+
+ `npm install nodemon --save` used as a production package
+ 
+ `npm install nodemon --save-dev` used as a development dependency for our local machine
+
+ `npm install nodemon -g`
